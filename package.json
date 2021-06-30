@@ -1,0 +1,22 @@
+{
+	"name": "matrimony",
+	"private": true,
+	"scripts": {
+		"develop": "gridsome develop",
+		"explore": "gridsome explore",
+		"build": "gridsome build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"dependencies": {
+		"@gridsome/source-strapi": "^0.2.0",
+		"gh-pages": "^3.2.3",
+		"gridsome": "^0.7.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.8.6",
+		"gridsome-plugin-tailwindcss": "^4.1.1",
+		"postcss": "^7.0.36",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
+	}
+}
